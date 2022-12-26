@@ -25,10 +25,10 @@ package_data = {
 
 install_requires = [
     "colour-science>=0.4.2",
-    "imageio>=2,<3",
-    "numpy>=1.20,<2",
-    "scipy>=1.7,<2",
-    "typing-extensions>=4,<5",
+    "imageio>=2",
+    "numpy>=1.20",
+    "scipy>=1.7",
+    "typing-extensions>=4",
 ]
 
 extras_require = {
@@ -50,7 +50,7 @@ extras_require = {
         "pytest-cov",
         "pyupgrade",
         "restructuredtext-lint",
-        "sphinx>=4,<5",
+        "sphinx>=4",
         "sphinxcontrib-bibtex",
         "toml",
         "twine",
@@ -77,5 +77,5 @@ setup(
     package_data=package_data,
     install_requires=install_requires,
     extras_require=extras_require,
-    python_requires=">=3.9,<3.12",
+    python_requires=">=3.9",
 )
